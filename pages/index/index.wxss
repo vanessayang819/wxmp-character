@@ -1,0 +1,23 @@
+/**index.wxss**/
+radio .wx-radio-input,
+checkbox .wx-checkbox-input{
+  flex: none;
+}
+.container{
+  display: flex;
+  background-color: #ccc;
+  padding: 20rpx;
+
+}
+.choices{
+  width: 100%;
+}
+.choice{
+  width: 90%;
+  padding: 20rpx;
+  margin: 20rpx;
+
+}
+button{
+  margin-bottom: 20rpx;
+}

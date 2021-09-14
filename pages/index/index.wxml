@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view class="container">
+  <text>颜色测试</text>
+  <text>{{title[num]}}</text>
+  <radio-group bindchange="radioChange" class="choices" wx:if="{{showChoices}}">
+    <view class="choice"><radio value="A"  checked="{{value==='a'}}">{{item.A1[num]}}</radio></view>
+    <view class="choice"><radio value="B" checked="{{value==='a'}}" >{{item.B1[num]}}</radio></view>
+    <view class="choice"><radio value="C" checked="{{value==='a'}}" >{{item.C1[num]}}</radio></view>
+    <view class="choice"><radio value="D" checked="{{value==='a'}}" >{{item.D1[num]}}</radio></view>
+  </radio-group>
+  <button catchtap="next">下一题</button>
+</view>
